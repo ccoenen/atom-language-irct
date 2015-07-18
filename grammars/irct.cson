@@ -1,0 +1,21 @@
+'name': 'IRC Theater Play'
+'scopeName': 'source.irct'
+'fileTypes': [
+  'irct'
+]
+'patterns': [
+  {
+    'comment': 'Delay'
+    'match': '^([\\d:,]+)\\s+(.+)'
+    'captures':
+        '1':
+            'name': 'constant.numeric.irct'
+        '2':
+            'name': 'variable.irct'
+  }
+  {
+    'comment': 'Action'
+    'match': '^/([\\w]+)\\s'
+    'name': 'keyword.irct'
+  }
+]

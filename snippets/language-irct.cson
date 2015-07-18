@@ -1,0 +1,4 @@
+'.source.irct':
+  'entry':
+    'prefix': '0'
+    'body': '${1:00:00:01,000} ${2:Narrator}\n${3:hi}\n\n'
